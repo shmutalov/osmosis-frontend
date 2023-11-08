@@ -12,12 +12,12 @@ export type LanguageState = { language: string; isControlOpen: boolean };
 
 const SUPPORTED_LANGUAGES: MenuDropdownIconItemProps[] = [
   {
-    value: "ru",
-    display: "Русский",
-  },
-  {
     value: "en",
     display: "English",
+  },
+  {
+    value: "ru",
+    display: "Русский",
   },
   {
     value: "es",

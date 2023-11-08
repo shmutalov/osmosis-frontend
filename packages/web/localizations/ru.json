@@ -318,7 +318,7 @@
       "poolId": "Пул #{id}",
       "stable": "Stableswap",
       "weighted": "Weighted",
-      "concentrated": "Supercharged",
+      "concentrated": "Суперзаряженный",
       "internal": "Internal incentives",
       "external": "External incentives",
       "superfluid": "Superfluid",
@@ -388,13 +388,13 @@
     "help": "Помощь",
     "info": "Статистика",
     "pools": "Пулы",
-    "stake": "Вклады",
+    "stake": "Стейкинг",
     "store": "Приложения",
-    "swap": "Своп",
+    "swap": "Обмен",
     "vote": "Голосование",
     "featureRequests": "Feature Requests",
     "trade": "Про Трейдинг",
-    "margin": "Маржинальная торговля",
+    "margin": "Лудилка",
     "perpetuals": "Бессрочные контракты",
     "marsSubtext": "Работает на Mars",
     "levanaSubtext": "Работает на Levana",
@@ -402,12 +402,12 @@
     "new": "НОВОЕ"
   },
   "notifi": {
-    "saveChanges": "Save changes",
+    "saveChanges": "Сохранить изменения",
     "unsupportedHistoryTitle": "Unsupported Notification",
-    "unsupportedHistoryMessage": "Oops, something went wrong. Please let us know",
-    "getStartedHistoryTitle1": "Buy tokens to get started",
+    "unsupportedHistoryMessage": "Упс, что-то пошло не так. Пожалуйста, сообщите нам",
+    "getStartedHistoryTitle1": "Купите токены для того, чтобы начать",
     "getStartedHistoryMessage1": "Acquire OSMO to start trading",
-    "getStartedHistoryTitle2": "How to start trading",
+    "getStartedHistoryTitle2": "Как начать торговать?",
     "getStartedHistoryMessage2": "This quick tutorial will get you trading in minutes",
     "getStartedHistoryTitle3": "How to deposit funds",
     "getStartedHistoryMessage3": "Learn how to deposit funds on Osmosis",
@@ -459,7 +459,7 @@
     "dailyEarnAmount": "{amount} / day",
     "day": "day",
     "delegated": "delegated",
-    "details": "Details",
+    "details": "Детали",
     "earnMore": "Earn {amount} more by bonding",
     "earnSwapFees": "Earn swap fees",
     "earnSwapFeesCaption": "Convert your tokens into shares and earn on every swap.",
@@ -479,7 +479,7 @@
     "superfluidEarnMore": "Earn {rate} more. Go Superfluid",
     "superfluidEnabled": "Superfluid",
     "superfluidStaking": "Superfluid Staking",
-    "swap": "Trade Pair",
+    "swap": "Торговать парой",
     "spreadFactor": "Spread Factor",
     "swapFee": "Swap fee",
     "swapFees": "swap fees",
@@ -487,7 +487,7 @@
     "unbond": "Unbond",
     "unbonding": "unbonding",
     "undelegating": "undelegating",
-    "yourStats": "Your pool balance",
+    "yourStats": "Ваш баланс в пуле",
     "onlyInRangePositions": "Only for positions in range"
   },
   "pools": {
@@ -495,7 +495,7 @@
       "search": "Искать пулы",
       "sort": {
         "APRIncentivized": "APR",
-        "fees": "Fees (7D)",
+        "fees": "Комиссии (7Д)",
         "liquidity": "Ликвидность",
         "poolName": "Имя пула/Номер",
         "volume24h": "Объёмы (24Ч)"
@@ -505,27 +505,27 @@
     "APR": "APR",
     "bonded": "Bonded",
     "createPool": {
-      "amount": "Amount",
-      "available": "Available",
-      "buttonAddToken": "Add new token",
-      "buttonCreate": "Create Pool",
-      "buttonNext": "Next",
-      "infoCaption": "Transferred to the Osmosis community pool",
-      "infoMessage": "Pool Creation Fee",
+      "amount": "Количество",
+      "available": "Доступно",
+      "buttonAddToken": "Добавить токен",
+      "buttonCreate": "Создать пул",
+      "buttonNext": "Далее",
+      "infoCaption": "Будет перечислена в общественный пул Osmosis",
+      "infoMessage": "Комиссия на создание пула",
       "scalingFactorController": "Set scaling factor controller (optional)",
-      "stablePool": "Stable pool",
+      "stablePool": "Пул стейблов",
       "step": {
         "one": {
-          "stable": "Step {step} / {nbStep} - Set scaling factors",
-          "weighted": "Step {step} / {nbStep} - Set token ratios"
+          "stable": "Шаг {step} / {nbStep} - Set scaling factors",
+          "weighted": "Шаг {step} / {nbStep} - Set token ratios"
         },
-        "three": "Step {step} / {nbStep} - Confirm pool ratio and token amount",
-        "two": "Step {step} / {nbStep} - Input amount to add"
+        "three": "Шаг {step} / {nbStep} - Confirm pool ratio and token amount",
+        "two": "Шаг {step} / {nbStep} - Input amount to add"
       },
       "swapFee": "Set Swap Fee",
-      "title": "Create New Pool",
-      "token": "Token",
-      "undersandCost": "I understand that creating a new pool will cost {POOL_CREATION_FEE}.",
+      "title": "Создать новый пул",
+      "token": "Токен",
+      "undersandCost": "Я уведомлён о том, что при создании пула, с меня возьмут коммиссию в {POOL_CREATION_FEE}.",
       "weightedPool": "Weighted pool"
     },
     "externalIncentivized": {
@@ -536,7 +536,7 @@
     "myPools": "Ваши пулы",
     "poolId": "Пул #{id}",
     "priceOsmo": "Цена OSMO",
-    "rewardDistribution": "Распределение наград через"
+    "rewardDistribution": "До распределения наград"
   },
   "profile": {
     "balance": "Баланс",
@@ -554,7 +554,7 @@
     "filterDust": "Не показывать пыль",
     "selectLanguage": "Выберите язык",
     "titleUnverifiedAssets": "Непроверенные активы",
-    "unverifiedAssets": "Показывать непроверенные активы в пулах и свопе",
+    "unverifiedAssets": "Показывать непроверенные активы в пулах и обмене",
     "title": "Глобальные настройки",
     "titleHideDust": "Скрыть пулы ниже {fiatSymbol}0.01",
     "titleLanguage": "Язык"
@@ -663,32 +663,32 @@
     "titleMobile": "Select Validator"
   },
   "swap": {
-    "autoRouter": "Route taken",
+    "autoRouter": "Путь",
     "autoRouterToggle": {
-      "hide": "Hide",
-      "show": "Show"
+      "hide": "Скрыть",
+      "show": "Показать"
     },
-    "available": "Available",
-    "button": "Swap",
-    "buttonError": "Swap anyway",
-    "expectedOutput": "Expected Output",
-    "fee": "Swap Fee ({fee})",
-    "HALF": "HALF",
-    "MAX": "MAX",
+    "available": "Доступно",
+    "button": "Обменять",
+    "buttonError": "Обменять в любом случае",
+    "expectedOutput": "Ожидаемое кол-во",
+    "fee": "Комиссия ({fee})",
+    "HALF": "ПОЛОВИНА",
+    "MAX": "МАКС",
     "minimumSlippage": "Minimum received after slippage ({slippage})",
-    "pool": "Pool #{id}",
+    "pool": "Пул #{id}",
     "priceImpact": "Price Impact",
-    "routerTooltipFee": "Fee",
+    "routerTooltipFee": "Комиссия",
     "routerTooltipSpreadFactor": "Spread Factor",
     "settings": {
-      "slippage": "Slippage tolerance",
-      "slippageInfo": "Your transaction will revert if the price changes unfavorably by more than this percentage.",
-      "title": "Transaction settings"
+      "slippage": "Проскальзывание",
+      "slippageInfo": "Ваша транзакция будет отменена, если изменение цены будет выше этого процента.",
+      "title": "Настройки транзакции"
     },
-    "title": "Swap",
+    "title": "Обмен",
     "promo": {
       "newOpportunity": "New opportunity to earn with {denom}",
-      "discoverSuperchargedPools": "Discover Supercharged Pools"
+      "discoverSuperchargedPools": "Обзор Суперзаряженных пулов"
     }
   },
   "walletSelect": {
@@ -744,10 +744,10 @@
     "title": "Upgrades available",
     "detected": "We’ve detected upgrades for the assets or positions listed below.",
     "positionUpgrade": "Position Upgrade",
-    "superchargedLiquidity": "Supercharged Liquidity",
+    "superchargedLiquidity": "Супекрзаряженная ликвидность",
     "newSuperchargedPool": "This new pool comes with higher earning potential and a highest estimated APR.",
     "upgrade": "Upgrade",
-    "pool": "POOL",
+    "pool": "ПУЛ",
     "new": "NEW",
     "current": "CURRENT",
     "success": "Upgrade success!",
@@ -757,15 +757,15 @@
   },
   "seo": {
     "404": {
-      "title": "404 - Page not found",
+      "title": "404 - Страница не найдена",
       "description": "The page you are looking for does not exist."
     },
     "500": {
-      "title": "500 - Internal server error",
+      "title": "500 - Внутренняя ошибка сервера",
       "description": "An internal server error occurred."
     },
     "default": {
-      "title": "Trade on Osmosis Zone",
+      "title": "Торговать на Osmosis Zone",
       "description": "Swap, earn, and build on the leading decentralized Cosmos exchange - The largest interchain DEX"
     },
     "apps": {
@@ -785,7 +785,7 @@
       "description": "Read the disclaimer and privacy policy for the Osmosis - the leading decentralized Cosmos exchange"
     },
     "pool": {
-      "title": "Pool #{id}"
+      "title": "Пул #{id}"
     },
     "pools": {
       "title": "Osmosis Pools",
